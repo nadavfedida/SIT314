@@ -1,0 +1,5 @@
+- **"mqtt-listener.js"** is used to wait for any MQTT messages from any client on channel **Lights**
+- **"client.js"** gets turned on by calling **node client.js "#"** where the number is the amount of light instances you want to create. 
+- **"query-client.js"** is the updating client. 
+    - first question is "which light you want to update?"
+    - 
